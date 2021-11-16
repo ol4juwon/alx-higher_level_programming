@@ -5,6 +5,6 @@ def fizzbuzz():
         if(numer == 0):
             print('fizz', end=' ')
         elif(numer == 100):
-            print('{}'.format(i), end='')
+            print('{}'.format(i), end=' ')
         else:
             print('{}'.format(i), end=' ')
