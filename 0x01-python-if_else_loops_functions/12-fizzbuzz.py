@@ -4,5 +4,7 @@ def fizzbuzz():
         numer = i % 3
         if(numer == 0):
             print('fizz', end=' ')
+        elif(numer == 100):
+            print('{}'.format(i), end='')
         else:
             print('{}'.format(i), end=' ')
