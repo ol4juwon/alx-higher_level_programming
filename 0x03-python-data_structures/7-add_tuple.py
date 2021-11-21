@@ -23,7 +23,16 @@ def add_tuple(tuple_a=(), tuple_b=()):
         b1 = tuple_b[0]
         b2 = tuple_b[1]
 
+    if a1:
+        pass
+    else:
+        a1 = 0
+
+    if a2:
+        pass
+    else:
+        a2 = 0
+
     added = (a1 + b1, a2 + b2)
 
     return (added)
-	
