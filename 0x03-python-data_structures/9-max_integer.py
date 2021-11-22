@@ -10,7 +10,4 @@ def max_integer(my_list=[]):
             if my_list[i] > max_length:
                 max_length = my_list[i]
             i += 1
-        retunr max_length
-
-
-max_integer([1,23,43,-23,234,34])
+        return max_length
