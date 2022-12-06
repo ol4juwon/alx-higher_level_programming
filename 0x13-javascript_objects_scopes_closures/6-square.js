@@ -7,16 +7,16 @@ class Square extends SquareParent {
 
   charPrint (c) {
     if (c) {
-      this.print('C');
+      this.print(c);
     } else {
       this.print('X');
     }
   }
 
   print (c) {
-    for (let i = 0; i < this.size; i++) {
+    for (let i = 0; i < size; i++) {
       let newX = '';
-      for (let j = 0; j < this.size; j++) {
+      for (let j = 0; j < size; j++) {
         newX += `${c}`;
       }
       console.log(newX);
