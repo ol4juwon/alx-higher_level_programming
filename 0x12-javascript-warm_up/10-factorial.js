@@ -1,4 +1,4 @@
-// #!/usr/bin/node
+#!/usr/bin/node
 const c = parseInt(process.argv[2]);
 const factorial = ( num ) => {
   let fact = 1;
