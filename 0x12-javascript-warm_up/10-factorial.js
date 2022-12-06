@@ -1,6 +1,6 @@
 #!/usr/bin/node
 const c = parseInt(process.argv[2]);
-const factorial = ( num ) => {
+function factorial( num ){
   let fact = 1;
   while( num > 0){
     fact *= num;
