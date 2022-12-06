@@ -6,7 +6,7 @@ const getContent = (path) => {
   return readFileSync(path, 'utf8');
 };
 const writeContent = (path, content) => {
-  return writeFile(path, content, 'utf8', err => { if (err) throw err; });
+  return writeFile(path, content, 'utf8', err => { if (err) throw err.message; });
 };
 
 const newString = `${getContent(paths[2])} ${getContent(paths[3])}`;
