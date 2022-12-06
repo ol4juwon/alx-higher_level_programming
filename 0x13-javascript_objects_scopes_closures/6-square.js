@@ -14,9 +14,9 @@ class Square extends SquareParent {
   }
 
   print (c) {
-    for (let i = 0; i < size; i++) {
+    for (let i = 0; i < this.height; i++) {
       let newX = '';
-      for (let j = 0; j < size; j++) {
+      for (let j = 0; j < this.height; j++) {
         newX += `${c}`;
       }
       console.log(newX);
