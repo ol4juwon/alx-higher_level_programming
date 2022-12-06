@@ -1,5 +1,4 @@
-// #!/usr/bin/node
-//
+#!/usr/bin/node
 const { readFileSync, writeFile } = require('fs');
 const { argv } = require('process');
 const paths = argv.splice(2);
