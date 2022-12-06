@@ -3,9 +3,9 @@ const SquareParent = require('./5-square.js');
 class Square extends SquareParent {
   charPrint (c) {
     if (c === undefined) {
-      c = 'X'
+      c = 'X';
     }
-    print(c);
+    this.print(c);
   }
 
   print (c) {
