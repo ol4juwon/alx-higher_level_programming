@@ -1,6 +1,6 @@
 #!/usr/bin/node
 const x = process.argv[2];
-if (x) {
+if (!isNaN(x)) {
   while(x > 0) {
     console.log('C is fun');
     x--;
