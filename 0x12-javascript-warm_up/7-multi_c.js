@@ -1,6 +1,6 @@
 #!/usr/bin/node
 let x = process.argv[2];
-if (isNaN(x)){
+if (isNaN(x)) {
   console.log('Missing number of occurrences');
 }
 while (x > 0) {
