@@ -1,5 +1,5 @@
 #!/usr/bin/node
 const str = process.argv[2];
-if (parseInt(str) !==NaN) {
+if (isNaN(parseInt(str))) {
 console.log(`My number: ${str}`);
 }
