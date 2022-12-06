@@ -1,5 +1,7 @@
 #!/usr/bin/node
-exports.addMeMaybe = function (x, callBack) {
-  x++;
-  callBack(x);
+exports.callMeMoby = function (x, callBack) {
+  while (x > 0) {
+    callBack();
+    x--;
+  }
 };
