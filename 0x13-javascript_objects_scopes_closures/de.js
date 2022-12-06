@@ -7,4 +7,5 @@ exports.dict = {
     93: 1,
     94: 2
   };
-  
+  #!/usr/bin/node
+exports.list = [1, 2, 3, 4, 5];
