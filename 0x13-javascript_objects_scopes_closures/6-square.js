@@ -5,10 +5,6 @@ class Square extends SquareParent {
     if (c === undefined) {
       c = 'X';
     }
-    this.print(c);
-  }
-
-  print (c) {
     for (let i = 0; i < this.height; i++) {
       let newX = '';
       for (let j = 0; j < this.height; j++) {
