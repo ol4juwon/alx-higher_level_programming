@@ -1,4 +1,4 @@
-// #!/usr/bin/node
+#!/usr/bin/node
 const x = require('./100-data.js');
 const { list } = x;
 console.log(list);
