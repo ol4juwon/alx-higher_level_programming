@@ -8,8 +8,9 @@ class Rectangle {
   }
 
   print () {
-    let newX = '';
+    
     for (let i = 0; i < this.width; i++) {
+      let newX = '';
       for (let j = 0; j < this.height; j++) {
         newX += 'X';
       }
