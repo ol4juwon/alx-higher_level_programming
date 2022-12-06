@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const { dict } = require('./101-dict');
+const { dict } = require('./101-data');
 const keys = Object.keys(dict);
 const values = Object.values(dict);
 let matched;
