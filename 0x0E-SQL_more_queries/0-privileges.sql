@@ -1,2 +1,2 @@
 -- grants;
-SHOQ GRANTS;
+SHOW GRANTS;
