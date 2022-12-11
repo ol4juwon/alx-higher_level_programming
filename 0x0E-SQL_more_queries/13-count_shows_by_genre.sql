@@ -1,5 +1,6 @@
 -- select and group
 SELECT tv_genres.name AS genre, count(tv_show_genres.genre_id) AS number_of_shows
-WHERE tv_show_genres.genre_id IS NOT NULL
-GROUP BY tv_genres.name
-ORDER BY number_of_shows DESC;
+FROM tv_show_genres
+JOIN tv_genres ON tv_genres.id = tv_show_genres.genre_id
+GROUP BY tv_show_genres.genre_id
+ORDER BY number_of_shows DESC,  tv_genres.id ASC;
