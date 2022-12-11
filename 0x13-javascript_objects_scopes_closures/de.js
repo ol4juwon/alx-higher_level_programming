@@ -1,11 +1,6 @@
-#!/usr/bin/node
-exports.dict = {
-    89: 1,
-    90: 2,
-    91: 1,
-    92: 3,
-    93: 1,
-    94: 2
-  };
-  #!/usr/bin/node
-exports.list = [1, 2, 3, 4, 5];
+var a = 3
+var b = 2
+console.log(a, b);
+
+(a, b) = (b, a)
+console.log(a, b);
